@@ -1,0 +1,5 @@
+bin/
+    hello                  # command executable
+src/
+    helloGo/
+        hello.go       # command source

@@ -1,0 +1,10 @@
+bin/
+    hello                  # command executable
+pkg/
+    darwin_amd64/          # this will reflect your OS and architecture
+        stringutil.a       # package object
+src/
+        helloUsingLibrary/
+            hello.go       # command source
+        stringutil/
+            reverse.go     # package source
