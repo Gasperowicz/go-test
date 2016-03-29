@@ -1,4 +1,4 @@
-#First Go Program:
+#First Go software:
 echo $GOPATH #to see if it’s set or empty<br>
 export GOPATH=$HOME/Web/Go/src/github.com/username/helloUsingLibrary<br>
 echo $GOPATH # to see it has changed<br>
