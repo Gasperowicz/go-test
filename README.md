@@ -1,7 +1,7 @@
 # go-tuto
 
 #First Go Program:
-echo $GOPATH #to see if it’s set or empty
+echo $GOPATH #to see if it’s set or empty<br>
 export GOPATH=$HOME/Web/Go/src/github.com/username/helloUsingLibrary
 echo $GOPATH # to see it has changed
 mkdir -p $GOPATH/src/hello
