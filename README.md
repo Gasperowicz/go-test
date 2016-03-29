@@ -1,5 +1,3 @@
-# go-tuto
-
 #First Go Program:
 echo $GOPATH #to see if it’s set or empty<br>
 export GOPATH=$HOME/Web/Go/src/github.com/username/helloUsingLibrary<br>
