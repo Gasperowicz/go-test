@@ -10,9 +10,9 @@ echo $PATH # to see it has changed<br>
 vim hello.go # You can create hello.go<br>
 
 # First Go library:
-mkdir $GOPATH/src/github.com/username/stringutil #in that folder, create reverse.go<br>
+mkdir $GOPATH/stringutil #in that folder, create reverse.go<br>
 
-go build github.com/username/helloUsingLibrary/stringutil #Or, in the package's source directory, just:go build (This won't produce an output file. To do that, you must use go install, which places the package object inside the pkg directory of the workspace.)<br>
+go build $GOPATH/stringutil #Or, in the package's source directory, just:go build (This won't produce an output file. To do that, you must use go install, which places the package object inside the pkg directory of the workspace.)<br>
 
 Whenever the go tool installs a package or binary, it also installs whatever dependencies it has. So when you install the hello program, the stringutil package will be installed as well, automatically.<br>
 
